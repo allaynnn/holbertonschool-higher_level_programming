@@ -12,3 +12,4 @@ elif LastDigit > 5:
 else:
     print(f"Last digit of {number} is {LastDigit}", end=" ")
     print("and is less than 6 and not 0")
+    #!/usr/bin/python3

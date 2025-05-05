@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def uniq_add(my_list=[]):
-    return sum(set(my_list))
+def square_matrix_simple(matrix=[]):
+    return [[x ** 2 for x in row] for row in matrix]

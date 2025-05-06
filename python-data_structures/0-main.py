@@ -1,7 +1,6 @@
-# main_0.py
-
-best_score = __import__('best_score').best_score
-
-my_dict = {'John': 12, 'Alex': 8, 'Bob': 14, 'Mike': 14, 'Molly': 10}
-print("Best: {}".format(best_score(my_dict)))
-
+#!/usr/bin/python3
+def print_list_integer(my_list=[]):
+    for num in my_list:
+        print("{}".format(num))
+my_list = [1, 2, 3, 4, 5]
+print_list_integer('my_list')

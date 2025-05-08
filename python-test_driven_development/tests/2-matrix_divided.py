@@ -322,4 +322,4 @@ def raises_matrix_type_error():
     """
 
     raise TypeError('matrix must be a matrix \
-(list of lists) of integers/floats')i
+(list of lists) of integers/floats')      

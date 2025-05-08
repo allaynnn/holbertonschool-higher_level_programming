@@ -160,8 +160,8 @@ Section // Inconsistent rows
 ======================
 
 Test case #16: A test case with inconsistent rows
-    >>>matrix = [[1, 2, 3], [4, 5]]
-    >>>matrix_divided (matrix, 3)
+    >>> matrix = [[1, 2, 3], [4, 5]]
+    >>> matrix_divided (matrix, 3)
     Traceback (most recent call last):
     TypeError: Each row of the matrix must have the same size
 
